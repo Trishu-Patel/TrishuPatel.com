@@ -50,7 +50,8 @@
         font-size: 1em;
     }
     .experience p{
-        font-size: 0.75em;
+        font-size: 1em;
+        padding-left: 0;
     }
 }
 

@@ -25,7 +25,9 @@ function ProjectDisplay(){
                 processing techniques with OpenCV, and automatically makes the Dino
                 jump and dodge obstacle. Current High Score: 2310
             </Project>
-            <div className="project"></div>
+            <Project title="Game of Life" bubbles={["JavaScript", "HTML", "CSS", "OOP"]} github="https://github.com/Trishu-Patel/Game_Of_Life" link=''>
+                This Website is a simulation of a zero-player game, Conway's Game of Life. This website lets your create initial conditions of the simulation and lets you see how they will play out.
+            </Project>
       </div>
     )
 }
