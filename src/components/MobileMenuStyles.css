@@ -1,0 +1,41 @@
+.hamburger-btn {
+    font-size: 2rem;
+    display: flex;
+}
+
+@media (min-width : 800px) {
+    .hamburger-btn{
+        display: none;
+    }
+}
+
+.side-panel {
+    position: absolute;
+    transition: all 0.5s ease-in-out;
+    right: 0%;
+    top: 2em;
+    width: 200px;
+    height: 100vh;
+    background-color: #457b9d;
+    border-left: white solid 4px;
+    border-top: white solid 4px;
+    z-index: 1;
+}
+
+.side-panel > ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+}
+
+.side-panel > ul > li > a{
+    font-size: 0.5em;
+    color: white;
+    text-decoration: none;
+    width: fit-content;
+    height: fit-content;
+}
+
+.side-panel [data-side-panel-open = "1"] {
+    background-color: green;
+}
