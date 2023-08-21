@@ -57,22 +57,12 @@ export default function ExperiencesDisplay() {
               job="TJ Fuel (Gas Station)"
               title="Cashier"
               timeline="May 2019 - July 2023"
-            >
+            > 
               <ul>
-                <ExperienceDescription>
-                  Held a leadership position for 3 years (1 year a department
-                  leader and 2 as Team Captain)
-                </ExperienceDescription>
-                <ExperienceDescription>
-                  Worked closely with a variety of teams to build 4 robot that
-                  competed in regional tournaments.
-                </ExperienceDescription>
-                <ExperienceDescription>
-                  Designed, Programmed, and Built 10 robots over 4 years
-                </ExperienceDescription>
-                <ExperienceDescription>
-                  Taught several student how to design robots with Solidworks
-                </ExperienceDescription>
+              <ExperienceDescription>Served over 130 costumers per shift (drive thru/front counter)</ExperienceDescription>
+                <ExperienceDescription>Maintained records of inventory</ExperienceDescription>
+                <ExperienceDescription>Learned how to grow a small business</ExperienceDescription>
+                <ExperienceDescription>Currently developing a user-friendly website to better track the sale of lottery tickets</ExperienceDescription>
               </ul>
             </Experience>
           )}
@@ -84,9 +74,20 @@ export default function ExperiencesDisplay() {
               timeline="August 2018 - July 2022"
             >
               <ul>
-                <ExperienceDescription>Created positive </ExperienceDescription>
-                <ExperienceDescription>Maintained records of inventory</ExperienceDescription>
-                <ExperienceDescription>Learned how to grow a small business</ExperienceDescription>
+              <ExperienceDescription>
+                  Held a leadership position for 3 years (1 year a department
+                  leader and 2 as Team Captain)
+                </ExperienceDescription>
+                <ExperienceDescription>
+                  Worked closely with a variety of teams to build 4 robot that
+                  competed in regional tournaments.
+                </ExperienceDescription>
+                <ExperienceDescription>
+                  Designed, Programmed, and Built 10 robots over 4 years
+                </ExperienceDescription>
+                <ExperienceDescription>
+                  Taught several student computer aided design with Solidworks
+                </ExperienceDescription>
               </ul>
             </Experience>
           )}
