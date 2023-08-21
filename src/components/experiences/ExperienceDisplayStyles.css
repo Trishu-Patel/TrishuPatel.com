@@ -1,0 +1,102 @@
+.experiences-container {
+    background-color: var(--darkBlue);
+    width: 65%;
+    margin: 0 auto;
+    clip-path: polygon(0% 2em, 2em 0%, 100% 0, 100% calc(100% - 2em), calc(100% - 2em) 100%, 0 100%);
+    padding: 1em 2em;
+    height: 450px;
+}
+
+.experience-title {
+    text-decoration: underline;
+}
+
+.experience-title-section {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    margin: 6em 0;
+}
+
+.experience {
+    color: var(--offWhite);
+}
+
+.experience p {
+    font-size: 1.1em;
+}
+
+.experience h1{
+    color: var(--red);
+    font-size: 1.75em;
+    text-decoration: underline;
+    margin: 0;
+    padding: 0;
+}
+
+.experience h2{
+    color: var(--sandBlue);
+    font-size: 1.25em;
+    margin: 0;
+    padding: 0;
+}
+
+@media (max-width: 550px) {
+    .experience h1{
+        font-size: 1em;
+    }
+    .experience h2{
+        font-size: 1em;
+    }
+    .experience p{
+        font-size: 1em;
+    }
+}
+
+.experience-selector-container {
+    display: flex;
+    justify-content: flex-start;
+    width: 60%;
+    margin: 1em auto;
+}
+
+.experience-selector-container > label{
+    color: var(--darkBlue);
+    font-size: 1.5em;
+    transition: all ease-in 0.25s;
+    position: relative;
+}
+
+@media (max-width: 700px) {
+    .experience-selector-container > label {
+        font-size: 1em;
+    }
+}
+
+.experience-selector-container > label:hover{
+    color: var(--red);
+}
+
+.experience-selector-container > input {
+    visibility:hidden;
+}
+
+.experience-selector-container label.active{
+    color: var(--red);
+}
+
+.experience-selector-container label.active::after{
+    content: '';
+    width: 60%;
+    height: 2px;
+    background-color: var(--sandBlue);
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+}
+
+h1 {
+    color: var(--red);
+    margin: 0 auto;
+}

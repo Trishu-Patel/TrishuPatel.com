@@ -1,0 +1,93 @@
+.project{
+    width: 325px;
+    height: 375px;
+    background-color: var(--darkBlue);
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 10px 10px var(--sandBlue);
+    transition: all 1s;
+}
+
+.project:hover{
+    transform: scale(1.05);
+}
+
+.project h1 {
+    font-size: 25px;
+    margin: 1rem;
+    color: var(--red);
+    transition: all 0.25s;
+    text-decoration: underline;
+}
+
+.project h1:hover {
+    color: var(--offWhite);
+    cursor: pointer;
+}
+
+.project p {
+    width: 80%;
+    margin: 0;
+    color: var(--offWhite);
+    font-size: 16px;
+}
+
+.projects > h1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    font-size: 40px;
+}
+
+.projects {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 6em auto;
+    justify-content: space-evenly;
+    color: var(--red);
+}
+
+.bubbles {    
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    height: 100%;
+    align-items: flex-end;
+}
+
+.bubble {
+    color:var(--offWhite);
+    background-color: var(--red);
+    font-size: 12px;
+    padding: 0.30rem;
+    margin: 0.25rem;
+    clip-path: polygon(0.5em 0, 100% 0, 100% calc(100% - 0.5em), calc(100% - 0.5em) 100%, 0 100%, 0 0.5em);
+    width: fit-content;
+    height: fit-content;
+}
+
+.external-links {
+    width: 80%;
+    padding-bottom: 1rem;
+    display: flex;
+    align-items: end;
+    display: flex;
+}
+
+.link {
+    width: 2em;
+    height: 2em;
+    margin: 0.5rem;
+    color: var(--offWhite);
+    cursor: pointer;
+    transition: all ease-in-out 0.25s;
+}
+
+.link:hover {
+    color: var(--red);
+    transform: scale(1.1);
+}

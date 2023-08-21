@@ -1,0 +1,21 @@
+.about-me {
+    width: 65%;
+    margin: 6em auto;
+}
+
+
+.about-me h1 {
+    font-size: 3em;
+    color: var(--red);
+}
+
+.about-me p {
+    font-size: 1.75em;
+    color: var(--darkBlue);
+}
+
+@media screen and (max-width: 600px){
+    .about-me{
+        font-size: 10px;
+    }
+}

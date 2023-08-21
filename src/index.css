@@ -1,0 +1,12 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  --red: #e63946;
+  --offWhite: #f1faee;
+  --lightBlue: #a8dadc;
+  --sandBlue: #457b9d;
+  --darkBlue: #1d3557;
+}
