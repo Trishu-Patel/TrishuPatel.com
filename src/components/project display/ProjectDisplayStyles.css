@@ -31,7 +31,7 @@
     width: 80%;
     margin: 0;
     color: var(--offWhite);
-    font-size: 16px;
+    font-size: 1em;
 }
 
 .projects > h1 {
@@ -90,4 +90,11 @@
 .link:hover {
     color: var(--red);
     transform: scale(1.1);
+}
+
+
+@media (max-width: 400px) {
+    .project {
+        font-size: 15px;
+    }
 }
