@@ -55,6 +55,12 @@
     }
 }
 
+@media (max-width: 400px) {
+    .experience p {
+        font-size: 0.8em;
+    }
+}
+
 .experience-selector-container {
     display: flex;
     justify-content: flex-start;
