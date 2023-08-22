@@ -11,7 +11,7 @@ export default function AboutMe() {
       </p>
       <p>
         From a young age, I have been fascinated by the ways computers are able
-        to solve complex problem with simple logic. 
+        to solve complex problems with simple logic. 
         Learning how to harness such
         a powerful tool to create something awesome has always been a dream of
         mine.

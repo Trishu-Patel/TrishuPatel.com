@@ -62,7 +62,7 @@ export default function ExperiencesDisplay() {
               <ExperienceDescription>Served over 130 costumers per shift (drive thru/front counter)</ExperienceDescription>
                 <ExperienceDescription>Maintained records of inventory</ExperienceDescription>
                 <ExperienceDescription>Learned how to grow a small business</ExperienceDescription>
-                <ExperienceDescription>Currently developing a user-friendly website to better track the sale of lottery tickets</ExperienceDescription>
+                <ExperienceDescription>Currently developing a user-friendly website to better track inventory</ExperienceDescription>
               </ul>
             </Experience>
           )}
