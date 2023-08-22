@@ -86,7 +86,7 @@ export default function ExperiencesDisplay() {
                   Designed, Programmed, and Built 10 robots over 4 years
                 </ExperienceDescription>
                 <ExperienceDescription>
-                  Taught several student computer aided design with Solidworks
+                  Taught several student computer aided design skills with SolidWorks
                 </ExperienceDescription>
               </ul>
             </Experience>
