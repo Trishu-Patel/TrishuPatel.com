@@ -17,7 +17,7 @@ export default function NavLinks({ closeSideMenu }) {
         <a onClick={() => closeSideMenu()} href='#contact'>Contacts</a>
       </li>
       <li>
-        <a onClick={() => closeSideMenu()}>Resume</a>
+        <a onClick={() => closeSideMenu()} href="Trishu Patel Resume.pdf">Resume</a>
       </li>
     </ul>
   );

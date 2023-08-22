@@ -13,7 +13,7 @@ function NamePlate() {
               <a href="#contact">Get in Touch</a>
             </li>
             <li>
-              <a>Resume</a>
+              <a href="Trishu Patel Resume.pdf">Resume</a>
             </li>
           </ul>
         </div>
