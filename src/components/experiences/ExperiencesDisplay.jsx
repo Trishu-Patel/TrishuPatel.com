@@ -98,8 +98,10 @@ export default function ExperiencesDisplay() {
               timeline="August 2023 - Present"
             >
               <ul>
-                <ExperienceDescription>I have recently taken up this role, so keep an eye out see
-                    what I will create!</ExperienceDescription>
+                <ExperienceDescription>Volunteered with 4 other Hack4Impact UTK developers to create a front-end interface of a user-friendly
+relational database</ExperienceDescription>
+                <ExperienceDescription>Designed a client-oriented model for saving and storing data</ExperienceDescription>
+                <ExperienceDescription>Collected test data used to debug the website</ExperienceDescription>
               </ul>
             </Experience>
           )}
