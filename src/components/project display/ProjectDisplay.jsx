@@ -8,6 +8,18 @@ function ProjectDisplay() {
     <div className="projects" id="project">
       <h1>Projects</h1>
       <Project
+        title="NBA Game Predictor"
+        bubbles={["Python", "SciKit", "Pandas", "BeautifulSoup4"]}
+        github="https://github.com/Trishu-Patel/NBA-Game-Predictor"
+        link=""
+      >
+        NBA Game Predictor is a machine learning model the I trained to predict
+        the result of NBA games. I first developed a web scraper to collect over
+        7,500 NBA games of data. I then manipulated this dataset and used it to
+        train a ridge classification model. This model can be use to predict
+        future NBA games given two team with 64% accuracy.
+      </Project>
+      <Project
         title="Auto Sudoku"
         bubbles={["Python", "OCR", "OpenCV", "PyAutoGUI"]}
         github="https://github.com/Trishu-Patel/Auto_Sudoku"
